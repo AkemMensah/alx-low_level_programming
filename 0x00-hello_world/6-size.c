@@ -1,6 +1,7 @@
 #include <stdio.ih>
+
 /**
- * main - Entry level
+ * main - Entry pointi
  *
  * Return : Always 0 (successful)
  */
