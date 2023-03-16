@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include <stdio.ih>
 /**
- * main - Entry level;
+ *  main - Entry level
  *
- * Return : 0 if successful.
+ * Return : Always 0 (successful)
  */
 int main(void)
 {
