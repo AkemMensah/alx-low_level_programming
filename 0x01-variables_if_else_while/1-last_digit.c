@@ -6,10 +6,10 @@
 /* betty style doc for function main goes there */
 
 /**
- * main - This program will assign a random number to the variable n each time it is executed
+ * main - This program will assign a random number to the variable n
  *
  * Description: using the mian function
- * this program prints "and is greater than 5, and is 0, and is less than 6 and not 0"
+ * this program prints "and is greater than 5, and is 0"
  * Return: 0
  */
 int main(void)
