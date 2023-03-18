@@ -15,6 +15,6 @@ for (ch  = 'z' ; ch <= 'a' ; ch--)
 {
         putchar(ch);
 }
-printf('\n');
+putchar('\n');
 return (0);
 }
