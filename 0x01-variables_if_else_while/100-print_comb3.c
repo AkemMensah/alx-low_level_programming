@@ -1,37 +1,38 @@
 #include <stdio.h>
 
 /**
-* main - This program will print  all possible different combinations
-*
-* Description: using the mian function
-* this program prints all possible different combinations of two digits
-* Return: 0
-*/
+ * main - Prints numbers between 00 to 89.
+ *
+ * Description: This program uses main function to
+ * prints all conbinations of numbers
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-int ch = 0;
-int f_d;
-int n_d;
-int l_d;
+int i, e;
 
-while (ch <= 999)
+i = 48;
+e = 48;
+
+while (e < 58)
 {
-	f_d = (ch / 100 + '0');
-	n_d = (ch / 10 %10 + '0');
-	l_d = (ch / % 10 + '0');
-	if ((f_d < n_d) && (n_d < l_d))
-	{
-		putchar(f_d);
-		putchart(n_d);
-		putchart(l_d);
-
-		if (ch != 789)
-		{
-			putchar(',');
-			putchaar(' ');
-		}
-	}
-	ch++
+i = 48;
+while (i < 58)
+{
+if (e != i && e < i)
+{
+putchar(e);
+putchar(i);
+if (i == 57 && e == 56)
+{
+break;
+}
+putchar(',');
+putchar(' ');
+}
+i++;
+}
+e++;
 }
 putchar('\n');
 return (0);
