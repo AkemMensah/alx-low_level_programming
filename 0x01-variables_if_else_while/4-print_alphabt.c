@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - This program will all alphabelts 
+* main - This program will all alphabelts
 *
 * Description: using the mian function
 * this program prints except e and q
