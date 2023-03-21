@@ -1,4 +1,3 @@
-6-abs.txt
 #include "main.h"
 
 /**
