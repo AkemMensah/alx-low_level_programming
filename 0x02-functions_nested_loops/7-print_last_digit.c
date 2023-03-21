@@ -1,4 +1,3 @@
-7-print_last_digit.txt
 #include "main.h"
 
 /**
