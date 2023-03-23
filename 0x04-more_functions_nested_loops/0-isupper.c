@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _isupper - checks for upper/lower case
  * @c: charactor to be tested
