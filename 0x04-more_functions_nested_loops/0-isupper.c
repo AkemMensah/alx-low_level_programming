@@ -1,4 +1,6 @@
 #include "main.h"
+
+
 /**
  * _isupper - checks for upper/lower case
  * @c: charactor to be tested
@@ -7,9 +9,9 @@
 
 int _isupper(int c)
 {
-	if ((c >= 'A') && (c <= 'z'))
-	{
-		return (1);
+if ((c >= 'A') && (c <= 'z'))
+{
+return (1);
 	}
-	return (0);
+return (0);
 }
