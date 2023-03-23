@@ -1,8 +1,8 @@
 #include "main"
 
 /**
- * more_numbers - prints 10 times numbers since 0 up to 14
- * Return: 10 times to the numbers since 0 up to 14;
+ * more_numbers - prints 10 times numbers from 0 to 14
+ * Return: 10 times the numbers form 0 to 14;
  */
 
 void more_numbers(void)
@@ -10,7 +10,7 @@ void more_numbers(void)
 
 	int x, y;
 	for (x = 0; x < 10; x++)
-	{ for (y =0; y <=14; y++)
+	{ for (y =0; y <= 14; y++)
 		{
 			if(y > 9)
 			{
