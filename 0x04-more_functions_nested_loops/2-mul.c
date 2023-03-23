@@ -2,11 +2,12 @@
  
 /**
  * mul - multiplies two numbers
- * @a: first number
- * @b: second number
- * Return: results
+ * @a: first number to multiply with
+ * @b: second number to multiply with
+ * Return: results of multiplication of a and b
  */
 
 int mul(int a, int b)
 {
 	return (a * b);
+}
