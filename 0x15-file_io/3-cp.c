@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 /**
  * create_buffer - allocates 1024 bytes for a buffer.
  * @file: name of the file buffer stores chars for.
@@ -24,7 +23,6 @@ char *create_buffer(char *file)
 
 	return (buff);
 }
-
 /**
  * close_file - closes the file descriptors.
  * @fd: file descriptor to be closed.
